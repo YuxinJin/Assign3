@@ -188,7 +188,11 @@ Referring to math.sh, create a script called add.sh that takes two inputs and ad
 ### 6
 Create a program "mb_or_kb.sh", referring to bigornot.sh and useful.sh, create a script called big file that checks to see if the file exists provided as the first argument exists, and if it exists then gets the filesize, storing it as a variable. I have not provided you with a way to get filesize in exercise, and expect you to search web for a way.  The program then checks to see if the size is greater than 1,000,000.  If its less then 1,000,000, it prints the number of kilobytes (divide by 1000) followed by "kB".  If its greater than 1,000,000, then print the number of megabytes followed by "MB".
 
-*REPLACE WITH RESULTS for mb_or_kb.sh ~/.bashrc*
+`
+[yuxinjin@trgn510 bin]$ ./mb_or_kb.sh ~/.bashrc
+File /user/yuxinjin/.bashrc exists.
+File /user/yuxinjin/.bashrc size is 0.231 KB
+`
 
 ### 7
 Create a program "count_by_to.sh", referring to count.sh.  The file should take two arguments, and should count jumping by the first argument until the second argument is reached, starting at 0.  For example, *count.sh 2 10* would print 0 2 4 6 8 10
